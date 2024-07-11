@@ -91,8 +91,9 @@ def menu():
         print('-----Menú-----')
         print('1.-Asignar Creditos')
         print('2.-Clasificación')
-        print('3.-Guardar en csv')
-        print('4.-Salir')
+        print('3.-Calculo de estadisticas')
+        print('4.-Guardar archivo en csv')
+        print('5.-Salir')
         try:
             print('-'*50)
             opc=int(input('Ingresa tu elección'))
